@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "module": "module-runtime",
+  "classification": "required",
+  "execution": "core",
+  "runtime": null,
+  "placements": [
+    "server",
+    "kb"
+  ],
+  "principal_class": null,
+  "principal_ref": null,
+  "stages": [],
+  "source_sha256": "3a11ccff16aaecc25317062fea9e1c90e68c8b2c35c4eb2d9cc63be23dd6a6ee",
+  "owned_files": [
+    "src/modules/module-runtime/module.yaml",
+    "src/modules/module-runtime/pre_llm_hook.c",
+    "src/modules/module-runtime/include/aimee/module-runtime/pre_llm_hook.h",
+    "src/tests/test_plugin_c_hook.c",
+    "docs/modules/module-runtime.md"
+  ]
+}
